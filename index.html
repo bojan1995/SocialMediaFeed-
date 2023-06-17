@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Frontend challenge</title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://embedsocial.com/cdn/fonts/roboto/stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="navbar">
+        <span class="logo">Social Media Feed</span>
+        <div class="dark-mode-toggle">
+            <span class="toggle-label">Dark Mode</span>
+            <label class="switch">
+                <input type="checkbox" id="darkModeCheckbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+    <div class="feed-container" id="feedContainer"></div>
+    <button class="load-more-button" id="loadMoreBtn">Load More</button>
+    <div class="lightbox-container" id="lightboxContainer">
+        <span class="close-button">&times;</span>
+        <img class="lightbox-image" id="lightboxImage" src="" alt="Lightbox Image">
+    </div>
+	<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
