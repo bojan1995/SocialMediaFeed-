@@ -2,9 +2,9 @@
 
 # Features
 Toggle between light and dark mode.
-Display a feed of cards with images and likes.
+Display a feed of cards with Profile picture name images , post date , likes.
 Clicking on an image opens a lightbox view.
-Like and unlike cards.
+
 
 # Technologies Used
 HTML
